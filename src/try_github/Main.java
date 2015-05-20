@@ -3,7 +3,8 @@ package try_github;
 public class Main {
 
 	public static void main(String[] args) {
-System.out.println("Hello Git with Eclipse");
-	}
+		Add add = new Add();
 
+		System.out.println(Add.add(1,1));
+	}
 }
